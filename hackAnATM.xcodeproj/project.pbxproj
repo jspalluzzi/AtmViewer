@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252508741E1DD89D00D65637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508731E1DD89D00D65637 /* AppDelegate.swift */; };
+		252508761E1DD89D00D65637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508751E1DD89D00D65637 /* ViewController.swift */; };
+		252508791E1DD89E00D65637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252508771E1DD89E00D65637 /* Main.storyboard */; };
+		2525087B1E1DD89E00D65637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2525087A1E1DD89E00D65637 /* Assets.xcassets */; };
+		2525087E1E1DD89E00D65637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2525087C1E1DD89E00D65637 /* LaunchScreen.storyboard */; };
+		252508891E1DD89E00D65637 /* hackAnATMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508881E1DD89E00D65637 /* hackAnATMTests.swift */; };
+		252508941E1DD89E00D65637 /* hackAnATMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508931E1DD89E00D65637 /* hackAnATMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252508851E1DD89E00D65637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252508681E1DD89D00D65637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2525086F1E1DD89D00D65637;
+			remoteInfo = hackAnATM;
+		};
+		252508901E1DD89E00D65637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252508681E1DD89D00D65637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2525086F1E1DD89D00D65637;
+			remoteInfo = hackAnATM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		252508701E1DD89D00D65637 /* hackAnATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackAnATM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		252508731E1DD89D00D65637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252508751E1DD89D00D65637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		252508781E1DD89E00D65637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2525087A1E1DD89E00D65637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2525087D1E1DD89E00D65637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2525087F1E1DD89E00D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252508841E1DD89E00D65637 /* hackAnATMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackAnATMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		252508881E1DD89E00D65637 /* hackAnATMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackAnATMTests.swift; sourceTree = "<group>"; };
+		2525088A1E1DD89E00D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2525088F1E1DD89E00D65637 /* hackAnATMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackAnATMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		252508931E1DD89E00D65637 /* hackAnATMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackAnATMUITests.swift; sourceTree = "<group>"; };
+		252508951E1DD89E00D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2525086D1E1DD89D00D65637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252508811E1DD89E00D65637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525088C1E1DD89E00D65637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252508671E1DD89D00D65637 = {
+			isa = PBXGroup;
+			children = (
+				252508721E1DD89D00D65637 /* hackAnATM */,
+				252508871E1DD89E00D65637 /* hackAnATMTests */,
+				252508921E1DD89E00D65637 /* hackAnATMUITests */,
+				252508711E1DD89D00D65637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252508711E1DD89D00D65637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252508701E1DD89D00D65637 /* hackAnATM.app */,
+				252508841E1DD89E00D65637 /* hackAnATMTests.xctest */,
+				2525088F1E1DD89E00D65637 /* hackAnATMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252508721E1DD89D00D65637 /* hackAnATM */ = {
+			isa = PBXGroup;
+			children = (
+				252508731E1DD89D00D65637 /* AppDelegate.swift */,
+				252508751E1DD89D00D65637 /* ViewController.swift */,
+				252508771E1DD89E00D65637 /* Main.storyboard */,
+				2525087A1E1DD89E00D65637 /* Assets.xcassets */,
+				2525087C1E1DD89E00D65637 /* LaunchScreen.storyboard */,
+				2525087F1E1DD89E00D65637 /* Info.plist */,
+			);
+			path = hackAnATM;
+			sourceTree = "<group>";
+		};
+		252508871E1DD89E00D65637 /* hackAnATMTests */ = {
+			isa = PBXGroup;
+			children = (
+				252508881E1DD89E00D65637 /* hackAnATMTests.swift */,
+				2525088A1E1DD89E00D65637 /* Info.plist */,
+			);
+			path = hackAnATMTests;
+			sourceTree = "<group>";
+		};
+		252508921E1DD89E00D65637 /* hackAnATMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				252508931E1DD89E00D65637 /* hackAnATMUITests.swift */,
+				252508951E1DD89E00D65637 /* Info.plist */,
+			);
+			path = hackAnATMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2525086F1E1DD89D00D65637 /* hackAnATM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252508981E1DD89E00D65637 /* Build configuration list for PBXNativeTarget "hackAnATM" */;
+			buildPhases = (
+				2525086C1E1DD89D00D65637 /* Sources */,
+				2525086D1E1DD89D00D65637 /* Frameworks */,
+				2525086E1E1DD89D00D65637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackAnATM;
+			productName = hackAnATM;
+			productReference = 252508701E1DD89D00D65637 /* hackAnATM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252508831E1DD89E00D65637 /* hackAnATMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2525089B1E1DD89E00D65637 /* Build configuration list for PBXNativeTarget "hackAnATMTests" */;
+			buildPhases = (
+				252508801E1DD89E00D65637 /* Sources */,
+				252508811E1DD89E00D65637 /* Frameworks */,
+				252508821E1DD89E00D65637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252508861E1DD89E00D65637 /* PBXTargetDependency */,
+			);
+			name = hackAnATMTests;
+			productName = hackAnATMTests;
+			productReference = 252508841E1DD89E00D65637 /* hackAnATMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2525088E1E1DD89E00D65637 /* hackAnATMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2525089E1E1DD89E00D65637 /* Build configuration list for PBXNativeTarget "hackAnATMUITests" */;
+			buildPhases = (
+				2525088B1E1DD89E00D65637 /* Sources */,
+				2525088C1E1DD89E00D65637 /* Frameworks */,
+				2525088D1E1DD89E00D65637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252508911E1DD89E00D65637 /* PBXTargetDependency */,
+			);
+			name = hackAnATMUITests;
+			productName = hackAnATMUITests;
+			productReference = 2525088F1E1DD89E00D65637 /* hackAnATMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252508681E1DD89D00D65637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = John;
+				TargetAttributes = {
+					2525086F1E1DD89D00D65637 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					252508831E1DD89E00D65637 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2525086F1E1DD89D00D65637;
+					};
+					2525088E1E1DD89E00D65637 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2525086F1E1DD89D00D65637;
+					};
+				};
+			};
+			buildConfigurationList = 2525086B1E1DD89D00D65637 /* Build configuration list for PBXProject "hackAnATM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252508671E1DD89D00D65637;
+			productRefGroup = 252508711E1DD89D00D65637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2525086F1E1DD89D00D65637 /* hackAnATM */,
+				252508831E1DD89E00D65637 /* hackAnATMTests */,
+				2525088E1E1DD89E00D65637 /* hackAnATMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2525086E1E1DD89D00D65637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2525087E1E1DD89E00D65637 /* LaunchScreen.storyboard in Resources */,
+				2525087B1E1DD89E00D65637 /* Assets.xcassets in Resources */,
+				252508791E1DD89E00D65637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252508821E1DD89E00D65637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525088D1E1DD89E00D65637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2525086C1E1DD89D00D65637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252508761E1DD89D00D65637 /* ViewController.swift in Sources */,
+				252508741E1DD89D00D65637 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252508801E1DD89E00D65637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252508891E1DD89E00D65637 /* hackAnATMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525088B1E1DD89E00D65637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252508941E1DD89E00D65637 /* hackAnATMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252508861E1DD89E00D65637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2525086F1E1DD89D00D65637 /* hackAnATM */;
+			targetProxy = 252508851E1DD89E00D65637 /* PBXContainerItemProxy */;
+		};
+		252508911E1DD89E00D65637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2525086F1E1DD89D00D65637 /* hackAnATM */;
+			targetProxy = 252508901E1DD89E00D65637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252508771E1DD89E00D65637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252508781E1DD89E00D65637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2525087C1E1DD89E00D65637 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2525087D1E1DD89E00D65637 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252508961E1DD89E00D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252508971E1DD89E00D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252508991E1DD89E00D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackAnATM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.hackAnATM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2525089A1E1DD89E00D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackAnATM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.hackAnATM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2525089C1E1DD89E00D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hackAnATMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.hackAnATMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackAnATM.app/hackAnATM";
+			};
+			name = Debug;
+		};
+		2525089D1E1DD89E00D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hackAnATMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.hackAnATMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackAnATM.app/hackAnATM";
+			};
+			name = Release;
+		};
+		2525089F1E1DD89E00D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hackAnATMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.hackAnATMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hackAnATM;
+			};
+			name = Debug;
+		};
+		252508A01E1DD89E00D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hackAnATMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.hackAnATMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hackAnATM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2525086B1E1DD89D00D65637 /* Build configuration list for PBXProject "hackAnATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252508961E1DD89E00D65637 /* Debug */,
+				252508971E1DD89E00D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252508981E1DD89E00D65637 /* Build configuration list for PBXNativeTarget "hackAnATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252508991E1DD89E00D65637 /* Debug */,
+				2525089A1E1DD89E00D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2525089B1E1DD89E00D65637 /* Build configuration list for PBXNativeTarget "hackAnATMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2525089C1E1DD89E00D65637 /* Debug */,
+				2525089D1E1DD89E00D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2525089E1E1DD89E00D65637 /* Build configuration list for PBXNativeTarget "hackAnATMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2525089F1E1DD89E00D65637 /* Debug */,
+				252508A01E1DD89E00D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252508681E1DD89D00D65637 /* Project object */;
+}
