@@ -31,10 +31,10 @@ location).
   
       -- Displays Name and details of selected ATM or Branch --
       
-  2. The API response is mostly self-explanatory, but you can ignore any data that doesn't make sense
-(like languages).
+  2. The API response is mostly self-explanatory, but you can ignore any data that doesn't make sense.
 
-      -- Only used what was necessary for application --
+4. Extra:
+    -- Added unit tests to the AtmDeailsViewController class
 
 ## Dependanciess
 Alamofire - For the async API Calls
