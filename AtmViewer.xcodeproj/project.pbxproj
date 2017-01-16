@@ -154,8 +154,8 @@
 		252508871E1DD89E00D65637 /* AtmViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				2525088A1E1DD89E00D65637 /* Info.plist */,
 				253E0B471E258EEA00ACB500 /* AtmDetailViewControllerTests.swift */,
+				2525088A1E1DD89E00D65637 /* Info.plist */,
 				253E0B441E258E8500ACB500 /* AtmViewerTests-Bridging-Header.h */,
 			);
 			name = AtmViewerTests;

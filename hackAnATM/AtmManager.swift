@@ -10,7 +10,6 @@ import Foundation
 import GoogleMaps
 import Alamofire
 import SwiftyJSON
-//NOTE TO SELF: SEPERATE THE ATM INFO CLASS TO IT'S OWN FILE
 
 protocol AtmManagerDelegate: NSObjectProtocol {
     func didRecieveNewAtmInfo(newAtmInfo: [AtmInformation])
